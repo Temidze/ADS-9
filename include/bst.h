@@ -35,7 +35,7 @@ class BST {
       return 0;
     } else {
       lcoun = depth_p(root->lroot);
-      rcoun = depth_p(root->right);
+      rcoun = depth_p(root->rroot);
     }
     if (rcoun > lcoun) {
       return ++rcoun;
