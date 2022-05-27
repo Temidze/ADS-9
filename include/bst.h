@@ -57,7 +57,7 @@ class BST {
 
  public:
   BST() :root(nullptr) {}
-  void Addroot(const T& val) {
+  void AddNode(const T& val) {
     root = addNode(root, val);
   }
   int depth() {
