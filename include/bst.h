@@ -11,7 +11,7 @@ class BST {
     T value;
     int coun = 0;
     Node* lroot = nullptr;
-    Node* rroot = nullptr;;
+    Node* rroot = nullptr;
   };
   Node* root;
   Node* addNode(Node* root, const T& val) {
