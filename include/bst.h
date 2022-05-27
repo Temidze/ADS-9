@@ -29,7 +29,6 @@ class BST {
     }
       return root;
   }
-  
   int depth_p(Node* root) {
     int lcoun = 0, rcoun = 0;
     if (root == nullptr) {
@@ -44,7 +43,6 @@ class BST {
       return ++lcoun;
     }
   }
-  
   int searchNode(Node* root, const T& val) {
     if (root == nullptr) {
       return 0;
